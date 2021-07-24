@@ -1,0 +1,168 @@
+<!--
+ * A Design by GraphBerry
+ * Author: GraphBerry
+ * Author URL: http://graphberry.com
+ * License: http://graphberry.com/pages/license
+-->
+<script>
+if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}
+</script>
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>DOK</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Page teste based in template for GraphBerry.com">
+    <meta name="keywords" content="Based in template for GraphBerry.com | HTML5, Bootstrap 3, CSS3, javascript, PHP, Responsive, Mobile">
+    <meta name="author" content="Murillo"/>
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="mon, 22 jul 2002 11:12:01 gmt">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" integrity="sha512-XJ3ntWHl40opEiE+6dGhfK9NAKOCELrpjiBRQKtu6uJf9Pli8XY+Hikp7rlFzY4ElLSFtzjx9GGgHql7PLSeog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="col-md-12">
+                <img src="assets/images/logo_dok.svg" class="logo-png" height="80">
+                <a href="#contato" class="btn btn-banner hidden-xs">Já sou afiliado</a>
+            </div>
+            <div class="main-head ">
+                <div class="col-md-4">
+                    <img src="assets/images/foto_matheus.png" class="img-responsive">
+                </div>
+                <div class="row col-md-8">
+                    <h4>Torne-se um afiliado do maior despachante do Brasil!</h4>
+                    <a href="#" class="btn btn-banner hidden">Já sou afiliado</a>
+                </div>
+            </div>
+        </div>
+    </header>
+<div class="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                 <video controls style="width:100%;" height="300">
+                  <source src="movie.mp4" type="video/mp4">
+                  <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+                </video> 
+            </div>
+            <div class="col-md-6" id="contato">
+                <form method="post" role="form" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" name="nome" id="nome" class="form-control" placeholder="Informe seu nome*">
+                                <div id="verificar_nome" class="alert alert-sucess" style="display: none">Por favor digite seu nome e sobrenome <i class="fa fa-exclamation-circle" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="email" name="email" class="form-control" placeholder="Informe seu email*">
+                                <div id="verificar_email" class="alert alert-sucess" style="display: none">Por favor informe um e-mail válido <i class="fa fa-exclamation-circle" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="form-group">
+                                <button id="submit" class="btn btn-cta">Sim, quero ser um afiliado</button>
+                                <div id="verificar_msg" class="result" style="display: none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<section id="about" class="no-padding">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-12 section-text">
+                <div class="title title-left">
+                    <h2>Conheça TODOS os motivos para ser um Afiliado DOK Despachante</h2>
+                </div>
+            </div>
+            <div class="col-md-6 row logo-s">
+                <div class="border">
+                    <div class="logo"><img src="assets/images/porcentagem.svg"></div>
+                    <p>Fature <b>40%</b> dos honorários de cada pedido com pagamento aprovado!</p>
+                </div>
+            </div>
+            <div class="col-md-6 row logo-s">
+                <div class="border">
+                    <div class="logo"><img src="assets/images/enviar.svg" ></div>
+                    <p>Tenha suporte diário em nosso <b>grupo exclusivo</b> do Telegram.</p>
+                </div>
+            </div>
+            <div class="col-md-6 row logo-s">
+                <div class="border">
+                    <div class="logo"><img src="assets/images/presente.svg"></div>
+                    <p>Receba <b>premiações</b> a cada cota de vendas alcançadas! Ganhe Smartwatches, Smartphones e muito mais.</p>
+                </div>
+            </div>
+            <div class="col-md-6 row logo-s">
+                <div class="border">
+                    <div class="logo"><img src="assets/images/moeda.svg" ></div>
+                    <p>Procurando por renda complementar? Fature até R$1000.00 por mês fazendo uma única venda por dia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="paralax">
+    <div class="col-md-12">
+        <div class="row container">
+            <div class="col-md-6">
+                <h3>Já pensou em quantos veículos existem só no estado de São Paulo?</h3>
+                <h4>Há 30 milhões de pessoas para você vender esse produto</h4>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/carro.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-text" id="section-text">
+    <div class="container" >
+        <div class="row" >
+            <div class="col-md-7">
+                <p>Somente na capital paulista existem mais de 8.603.239 veículos circulando diariamente, de acordo com a pesquisa da Companhia de Engenharia de Tráfego (CET), de 2018.</p>
+                <p class="red">No Estado de São Paulo há mais de 30 milhões de veículos. Isso quer dizer que você tem 30 milhões de potenciais clientes que precisam e que vão regularizar os débitos dos seus veículos anualmente.</p>
+                <p>
+                Começando pelo IPVA, nos 3 primeiros meses do ano, passando para o licenciamento, que vai até dezembro, sem contar com eventuais multas e condutores inadimplentes que buscam parcelamentos durante o ano todo.</p>
+            </div>
+            <div class="col-md-5 stylesimg" style="background-image: url('assets/images/carros_parque.png');">
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-md-12">
+                <h2>Seja um afiliado e aproveite todo o potencial deste público!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 stylesimg" style="background-image: url('assets/images/carteira.png');">
+            </div>
+            <div class="col-md-6">
+                <p>Com o DOK Despachante você oferece praticidade e solução para quem busca pagar seus débitos com a menor burocracia possível. Nossos serviços funcionam 100% online, com parcelamentos em até 12x, divididos em 6 diferentes cartões, com as menores taxas do mercado.<br><br>Afilie-se, leve nossos serviços para quem precisa e aproveite a renda extra que você sempre sonhou. Faça parte do time do despachante que mais cresce no Brasil, com 15 anos de experiência no mercado de veículos paulista.</p>
+            </div>
+        </div>
+        <div class="row" >
+            <a href="#contato" class="btn btn-banner btn-center">QUERO SER UM AFILIADO</a>
+        </div>
+    </div>
+</section>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/smooth-scroll.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
